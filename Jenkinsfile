@@ -6,9 +6,10 @@ pipeline{
                 echo 'building app'
             }
         }
+        stage("deploy") {
+            steps {
+                echo 'deploying app'
+            }
+        }
     }
-}
-
-node{
-
 }
